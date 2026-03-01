@@ -137,7 +137,17 @@ body {
 
 /* SECTIONS */
 .section {
-  padding: 120px 12%;
+  padding: 120px 10%;
+}
+
+.section h2 {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.section p {
+  max-width: 850px;
+  margin: 0 auto 25px auto;
 }
 
 .light {
@@ -199,6 +209,8 @@ body {
 
 /* CARDS */
 .card {
+  max-width: 900px;
+  margin: 0 auto 40px auto;
   background: white;
   padding: 30px;
   border-radius: 12px;
