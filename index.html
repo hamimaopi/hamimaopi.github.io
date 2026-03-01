@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hamima Anwar | Software Engineer</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="navbar">
+  <h2 class="logo">Hamima Anwar</h2>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-container">
+    <h1>Hamima Anwar</h1>
+    <h2><span id="typing"></span></h2>
+    <p>
+      Computer Science student building backend systems,
+      PostgreSQL data workflows, and intelligent educational tools.
+    </p>
+
+    <div class="hero-buttons">
+      <a href="Hamima_Anwar_Resume.pdf" class="btn-primary">Download Resume</a>
+      <a href="#projects" class="btn-outline">View Projects</a>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section light reveal">
+  <h2>About</h2>
+  <p>
+    I am a Computer Science student at SUNY New Paltz with a strong interest in
+    backend systems, databases, and intelligent applications. My work focuses on
+    designing structured data workflows, building interactive systems, and
+    understanding how software operates at both high-level and low-level layers.
+  </p>
+
+  <p>
+    I currently develop AI-driven educational tools that simulate student learning
+    behavior, manage PostgreSQL databases containing structured academic data,
+    and assist in maintaining EdTech infrastructure. Through coursework in
+    Data Structures, Assembly Language, and Operating Systems, I am building a
+    solid foundation in systems-level thinking and software architecture.
+  </p>
+
+  <p>
+    I am particularly interested in scalable backend systems, secure authentication
+    flows, and the intersection of software engineering and intelligent systems.
+  </p>
+</section>
+
+<section id="skills" class="section dark reveal">
+  <h2>Technical Skills</h2>
+
+  <div class="skills-grid">
+
+    <div class="skill-card">
+      <h4>Languages</h4>
+      <p>Java, Python, SQL, C, JavaScript (Learning)</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Databases</h4>
+      <p>PostgreSQL, Structured Data Management</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Web Development</h4>
+      <p>HTML, CSS, Responsive Design, WordPress</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Systems</h4>
+      <p>Data Structures, Operating Systems, Assembly Language</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Tools</h4>
+      <p>Git, GitHub, Excel</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="projects" class="section light reveal">
+  <h2>Projects</h2>
+
+  <div class="card">
+    <h3>Sweetheart (Full-Stack Web Application – In Progress)</h3>
+    <p>
+      Designing and developing a full-stack application that allows users to
+      write, read, and comment on anonymous love confessions. The platform
+      includes authentication features such as login and sign-up functionality.
+    </p>
+    <p>
+      Currently implementing backend logic, structured database storage, and
+      dynamic client-side interactions using JavaScript. The system is being
+      built iteratively with a focus on data organization, user experience,
+      and scalable architecture.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>AI Teaching Bot (EdTech Research Project – Ongoing)</h3>
+    <p>
+      Contributing to the development of an AI-driven chatbot that simulates
+      a novice student for teacher training environments within the Adolescent
+      Education department.
+    </p>
+    <p>
+      Manage PostgreSQL data updates, support backend workflows, and assist
+      in preparing the system for server deployment. The project emphasizes
+      structured data management and interactive system behavior.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Portfolio Website (Version 2)</h3>
+    <p>
+      Redesigned and rebuilt personal portfolio using improved UI structure,
+      responsive design principles, and JavaScript-based interaction features.
+    </p>
+    <p>
+      This iteration reflects growth in system organization, clean layout
+      architecture, and modern frontend development practices.
+    </p>
+  </div>
+</section>
+
+<section id="experience" class="section dark reveal">
+  <h2>Experience</h2>
+
+  <div class="card">
+    <h3>Student Assistant – SUNY New Paltz (Adolescent Education / EdTech)</h3>
+    <p>
+      Contribute to the development of AI-driven educational systems that
+      simulate student learning behavior. Manage PostgreSQL databases,
+      support backend deployment preparation, and maintain departmental
+      EdTech website functionality.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Team Leader & Web Developer – Operation Unite NY</h3>
+    <p>
+      Maintain and enhance website infrastructure using WordPress and
+      custom CSS while ensuring accessibility and responsiveness.
+      Led a 15-member team coordinating 30+ community programs.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Shipment Specialist – Hawkins New York</h3>
+    <p>
+      Supported operational workflows involving inventory systems,
+      process accuracy, and daily device diagnostics. Assisted with
+      return-processing systems and technical troubleshooting in
+      a fast-paced logistics environment.
+    </p>
+  </div>
+
+  <div class="card">
+    <h3>Retail Associate – TJ Maxx</h3>
+    <p>
+      Operated point-of-sale systems, processed financial transactions,
+      managed credit applications, and communicated effectively with
+      diverse customers in a high-volume retail environment.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="section light reveal">
+  <h2>Contact</h2>
+  <p>Email: anwarh1@newpaltz.edu</p>
+  <p>LinkedIn: https://www.linkedin.com/in/hamimaopi/</p>
+</section>
+
+<footer>
+  <p>© 2026 Hamima Anwar</p>
+</footer>
+
+<script>
+/* Reveal Animation */
+function revealOnScroll() {
+  const reveals = document.querySelectorAll(".reveal");
+
+  reveals.forEach((section) => {
+    const windowHeight = window.innerHeight;
+    const sectionTop = section.getBoundingClientRect().top;
+    const revealPoint = 120;
+
+    if (sectionTop < windowHeight - revealPoint) {
+      section.classList.add("active");
+    }
+  });
+}
+
+window.addEventListener("scroll", revealOnScroll);
+window.addEventListener("load", revealOnScroll);
+
+/* Typing Effect */
+const text = "Software Engineering • AI Systems • Backend Development";
+let index = 0;
+const typingElement = document.getElementById("typing");
+
+function typeEffect() {
+  if (index < text.length) {
+    typingElement.textContent += text.charAt(index);
+    index++;
+    setTimeout(typeEffect, 40);
+  }
+}
+
+window.addEventListener("load", typeEffect);
+</script>
+
+</body>
+</html>
